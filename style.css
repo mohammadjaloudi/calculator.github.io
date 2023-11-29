@@ -1,0 +1,128 @@
+body {
+    font-family: 'Popins', sans-serif;
+    background-color: #474ece;
+}
+
+.container {
+    width: 1000px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.Calculator {
+    width: 320px;
+    min-height: 520px; /* Set a minimum height for the calculator */
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); 
+}
+
+.result {
+    text-align: right;
+    min-height: 60px; /* Set a minimum height for the result bar */
+    margin: auto;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+.output {
+    text-align: right;
+    min-height: 60px; /* Set a minimum height for the output bar */
+    margin: 0 20px;
+    font-size: 30px;
+}
+
+.keyboard {
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.number, .empty{
+    background-color: #eaedef;
+}
+.operator{
+    background-color: lightgray;
+}
+.number, .operator{
+    cursor: pointer;
+}
+.number:hover{
+    background-color: lightgray;
+}
+.operator:hover{
+    background-color: gray;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus, .empty.empty:focus{
+    outline: 0;
+}
+.operator:nth-child(1){
+    font-size: 20px;
+    background-color: rgb(160, 178, 238);
+}
+.operator:nth-child(2){
+    font-size: 20px;
+    background-color: rgb(160, 178, 238);
+}
+.operator:nth-child(3){
+    font-size: 20px;
+    background-color: rgb(160, 178, 238);
+}
+.operator:nth-child(4){
+    font-size: 20px;
+    background-color: rgb(160, 178, 238);
+}
+.operator:nth-child(8){
+    font-size: 20px;
+    background-color: rgb(160, 178, 238);
+}
+.operator:nth-child(12){
+    font-size: 20px;
+    background-color: rgb(160, 178, 238);
+}
+.operator:nth-child(16){
+    font-size: 20px;
+    background-color: rgb(160, 178, 238);
+}
+.operator:nth-child(20){
+    font-size: 20px;
+    background-color: rgb(160, 178, 238);
+}
+.operator:nth-child(1):hover{
+    background-color: rgb(85, 116, 219)
+}
+.operator:nth-child(2):hover{
+    background-color: rgb(85, 116, 219)
+}
+.operator:nth-child(3):hover{
+    background-color: rgb(85, 116, 219)
+}
+.operator:nth-child(4):hover{
+    background-color: rgb(85, 116, 219)
+}
+.operator:nth-child(8):hover{
+    background-color: rgb(85, 116, 219)
+}
+.operator:nth-child(12):hover{
+    background-color: rgb(85, 116, 219)
+}
+.operator:nth-child(16):hover{
+    background-color: rgb(85, 116, 219)
+}
+.operator:nth-child(20):hover{
+    background-color: rgb(85, 116, 219)
+}
